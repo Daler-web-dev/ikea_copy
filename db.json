@@ -180,7 +180,7 @@
       "isRecycling": false
     },
     {
-      "id": "1",
+      "id": "11",
       "name": "MYLLRA",
       "subtitle": "Crib with drawer, white, ",
       "price": 449.99,
@@ -198,7 +198,7 @@
       "isRecycling": false
     },
     {
-      "id": "2",
+      "id": "12",
       "name": "TROFAST",
       "subtitle": "Storage combination, white/gray ",
       "price": 99.99,
@@ -216,7 +216,7 @@
       "isRecycling": false
     },
     {
-      "id": "3",
+      "id": "13",
       "name": "ANTILOP",
       "subtitle": "High chair with safety belt, white/silver color",
       "price": 21.99,
@@ -234,7 +234,7 @@
       "isRecycling": false
     },
     {
-      "id": "4",
+      "id": "14",
       "name": "SEKTION / MAXIMERA",
       "subtitle": "Base cabinet with 3 drawers, white Enköping/white wood effect",
       "price": 314,
@@ -252,7 +252,7 @@
       "isRecycling": false
     },
     {
-      "id": "5",
+      "id": "15",
       "name": "VADHOLMA",
       "subtitle": "Open storage, brown/stained ash",
       "price": 81,
@@ -269,7 +269,7 @@
       "isRecycling": false
     },
     {
-      "id": "6",
+      "id": "16",
       "name": "KILSVIKEN",
       "subtitle": "Sink, black quartz composite",
       "price": 227,
@@ -287,7 +287,7 @@
       "isRecycling": false
     },
     {
-      "id": "7",
+      "id": "17",
       "name": "CIRKULERA",
       "subtitle": "Range with glass ceramic cooktop, Stainless steel",
       "price": 729,
@@ -305,7 +305,7 @@
       "isRecycling": false
     },
     {
-      "id": "8",
+      "id": "18",
       "name": "ENHET",
       "subtitle": "Bathroom, anthracite/gray frame",
       "price": 752.56,
@@ -323,7 +323,7 @@
       "isRecycling": false
     },
     {
-      "id": "9",
+      "id": "19",
       "name": "NORRMANSÖ / NORRMANSÖ",
       "subtitle": "Table+6 chairs, outdoor, acacia/beige acacia",
       "price": 1.039,
@@ -341,7 +341,7 @@
       "isRecycling": false
     },
     {
-      "id": "10",
+      "id": "20",
       "name": "SOLLERÖN",
       "subtitle": "3-seat modular sofa, outdoor, brown/Frösön/Duvholmen dark gray",
       "price": 449.99,
@@ -359,7 +359,7 @@
       "isRecycling": false
     },
     {
-      "id": 1,
+      "id": 21,
       "name": "NYMÅNE",
       "subtitle": "LED pendant lamp, wireless dimmable white spectrum/white.",
       "price": 59.59,
@@ -380,7 +380,7 @@
       "isRecycling": false
     },
     {
-      "id": 2,
+      "id": 22,
       "name": "SOLKLINT",
       "subtitle": "Pendant lamp, brass/grey clear glass.",
       "price": 34.99,
@@ -401,7 +401,7 @@
       "isRecycling": false
     },
     {
-      "id": 3,
+      "id": 23,
       "name": "STORSLINGA",
       "subtitle": "LED chandelier, 8-armed, black/white.",
       "price": 79.95,
@@ -422,7 +422,7 @@
       "isRecycling": false
     },
     {
-      "id": 4,
+      "id": 24,
       "name": "KRAGSTA",
       "subtitle": "Coffee table, black.",
       "price": 129,
@@ -443,7 +443,7 @@
       "isRecycling": false
     },
     {
-      "id": 5,
+      "id": 25,
       "name": "FRÖTORP",
       "subtitle": "Side table, anthracite marble effect/black glass.",
       "price": 99.95,
@@ -464,7 +464,7 @@
       "isRecycling": false
     },
     {
-      "id": 6,
+      "id": 26,
       "name": "BORGEBY",
       "subtitle": "Coffee table, birch veneer.",
       "price": 99.95,
@@ -485,7 +485,7 @@
       "isRecycling": false
     },
     {
-      "id": 7,
+      "id": 27,
       "name": "GRÖNLID",
       "subtitle": "2-seat sofa, Inseros white.",
       "price": 499,
@@ -506,7 +506,7 @@
       "isRecycling": false
     },
     {
-      "id": 8,
+      "id": 28,
       "name": "ALEFJÄLL",
       "subtitle": "Office chair, Grann golden-brown.",
       "price": 299,
@@ -527,7 +527,7 @@
       "isRecycling": false
     },
     {
-      "id": 9,
+      "id": 29,
       "name": "MARKUS",
       "subtitle": "Office chair, Vissle dark grey.",
       "price": 199,
@@ -548,7 +548,7 @@
       "isRecycling": false
     },
     {
-      "id": 10,
+      "id": 30,
       "name": "ALEFJÄLL",
       "subtitle": "Office chair, Glose black",
       "price": 299,
