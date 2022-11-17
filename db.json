@@ -1,0 +1,572 @@
+{
+  "array": [{
+      "id": "1",
+      "name": "MALM",
+      "subtitle": "High bed frame/2 storage boxes, white/Luröy, Queen",
+      "price": 374,
+      "rating": 4.5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-2-storage-boxes-white-luroey__1154393_pe886042_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-2-storage-boxes-white-luroey__0800857_ph163673_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-2-storage-boxes-white-luroey__1101597_pe866769_s5.jpg?f=xl",
+        "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-2-storage-boxes-white-luroey__1101598_pe866682_s5.jpg?f=s"
+      ],
+      "type": "Bedroom",
+      "size": "0",
+      "isRecycling": false
+    },
+    {
+      "id": "2",
+      "name": "BESTÅ",
+      "subtitle": "TV storage combination/glass doors, black-brown/Lappviken black-brown clear glass",
+      "price": "1,170.00",
+      "rating": 5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/besta-tv-storage-combination-glass-doors-black-brown-lappviken-black-brown-clear-glass__0645033_pe703175_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/besta-tv-storage-combination-glass-doors-black-brown-lappviken-black-brown-clear-glass__0992217_pe819884_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/besta-tv-storage-combination-glass-doors-black-brown-lappviken-black-brown-clear-glass__0991880_pe819659_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/besta-tv-storage-combination-glass-doors-black-brown-lappviken-black-brown-clear-glass__0394104_pe560927_s5.jpg?f=s"
+      ],
+      "type": "Bedroom",
+      "size": "118 1/8x16 1/2x91",
+      "isRecycling": false
+    },
+    {
+      "id": "3",
+      "name": "KVISSLE",
+      "subtitle": "Wall magazine rack, white",
+      "price": 20.99,
+      "rating": 4.5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/kvissle-wall-magazine-rack-white__0710295_pe727446_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-2-storage-boxes-white-luroey__0800857_ph163673_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-2-storage-boxes-white-luroey__1101597_pe866769_s5.jpg?f=xl",
+        "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-2-storage-boxes-white-luroey__1101598_pe866682_s5.jpg?f=s"
+      ],
+      "type": "Home office",
+      "size": "0",
+      "isRecycling": false
+    },
+    {
+      "id": "4",
+      "name": "RIGGA",
+      "subtitle": "Clothes rack, white",
+      "price": 24.99,
+      "rating": 4,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/rigga-clothes-rack-white__0710721_pe727742_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/rigga-clothes-rack-white__0388386_pe558487_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/rigga-clothes-rack-white__0910155_pe558617_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/rigga-clothes-rack-white__0682698_ph118950_s5.jpg?f=s"
+      ],
+      "type": "Hallway",
+      "size": "0",
+      "isRecycling": false
+    },
+    {
+      "id": "5",
+      "name": "MACKAPÄR",
+      "subtitle": "Shoe rack, white",
+      "price": 29.99,
+      "rating": 5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/mackapaer-shoe-rack-white__0710716_pe727737_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/mackapaer-shoe-rack-white__1094784_pe863621_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/mackapaer-shoe-rack-white__1094785_pe863620_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/mackapaer-shoe-rack-white__0909609_pe654058_s5.jpg?f=s"
+      ],
+      "type": "Hallway",
+      "size": " 30 3/4x12 5/8x15 3/4 ",
+      "isRecycling": false
+    },
+    {
+      "id": "6",
+      "name": "GRILLSKÄR",
+      "subtitle": "Sink unit, black/stainless steel outdoor",
+      "price": 265,
+      "rating": 5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/grillskaer-sink-unit-black-stainless-steel-outdoor__0820262_pe774985_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/grillskaer-sink-unit-black-stainless-steel-outdoor__0979332_pe814504_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/grillskaer-sink-unit-black-stainless-steel-outdoor__0979337_pe814509_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/grillskaer-sink-unit-black-stainless-steel-outdoor__0979333_pe814505_s5.jpg?f=s"
+      ],
+      "type": "Outdoor",
+      "size": "33 7/8x24",
+      "isRecycling": false
+    },
+    {
+      "id": "7",
+      "name": "TVETÖ",
+      "subtitle": "Umbrella, tilting/gray-beige white",
+      "price": 24.99,
+      "rating": 5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/tvetoe-umbrella-tilting-gray-beige-white__0961338_pe807496_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/tvetoe-umbrella-tilting-gray-beige-white__0997559_ph177038_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/tvetoe-umbrella-tilting-gray-beige-white__0966078_pe809686_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/tvetoe-umbrella-tilting-gray-beige-white__0961339_pe807498_s5.jpg?f=s"
+      ],
+      "type": "Outdoor",
+      "size": "70 7/8x57 1/8",
+      "isRecycling": false
+    },
+    {
+      "id": "8",
+      "name": "SOLIG",
+      "subtitle": "Net, white",
+      "price": 24.99,
+      "rating": 4.5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/solig-net-white__0712003_pe728611_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/solig-net-white__1016815_ph176466_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/solig-net-white__0907252_pe616644_s5.jpg?f=xl",
+        "https://www.ikea.com/us/en/images/products/solig-net-white__0983773_ph176437_s5.jpg?f=s"
+      ],
+      "type": "Outdoor",
+      "size": "0",
+      "isRecycling": false
+    },
+    {
+      "id": "9",
+      "name": "SJÄLLAND",
+      "subtitle": "Armchair, outdoor, light gray/light brown",
+      "price": 90,
+      "rating": 4.5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/sjaelland-armchair-outdoor-light-gray-light-brown__0728351_pe736199_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/sjaelland-armchair-outdoor-light-gray-light-brown__0673537_pe717304_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/sjaelland-armchair-outdoor-light-gray-light-brown__0706005_ph149140_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/sjaelland-armchair-outdoor-light-gray-light-brown__0906917_pe671597_s5.jpg?f=s"
+      ],
+      "type": "Outdoor",
+      "size": "0",
+      "isRecycling": false
+    },
+    {
+      "id": "10",
+      "name": "MÄLLSTEN",
+      "subtitle": "Decking, outdoor, indoor/outdoor/gray/white,",
+      "price": 49.99,
+      "rating": 4,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/maellsten-decking-outdoor-indoor-outdoor-gray-white__0781906_pe760964_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/maellsten-decking-outdoor-indoor-outdoor-gray-white__0832534_ph168430_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/maellsten-decking-outdoor-indoor-outdoor-gray-white__0781913_pe760965_s5.jpg?f=xl",
+        "https://www.ikea.com/us/en/images/products/maellsten-decking-outdoor-indoor-outdoor-gray-white__0781910_pe760962_s5.jpg?f=s"
+      ],
+      "type": "Outdoor",
+      "size": "0",
+      "isRecycling": false
+    },
+    {
+      "id": "1",
+      "name": "MYLLRA",
+      "subtitle": "Crib with drawer, white, ",
+      "price": 449.99,
+      "rating": 5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/myllra-crib-with-drawer-white__0812403_pe783210_s5.jpg?f=xl",
+        "https://www.ikea.com/us/en/images/products/myllra-crib-with-drawer-white__0812402_pe783212_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/myllra-crib-with-drawer-white__0812401_pe783213_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/myllra-crib-with-drawer-white__0947574_pe798596_s5.jpg?f=s"
+      ],
+      "type": "Children's room",
+      "size": " 27 1/2x52",
+      "isRecycling": false
+    },
+    {
+      "id": "2",
+      "name": "TROFAST",
+      "subtitle": "Storage combination, white/gray ",
+      "price": 99.99,
+      "rating": 4.5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/trofast-storage-combination-white-gray__0807589_pe770448_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/trofast-storage-combination-white-gray__1046550_pe843027_s5.jpg?f=xl",
+        "https://www.ikea.com/us/en/images/products/trofast-storage-combination-white-gray__1046551_pe843026_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/trofast-storage-combination-white-orange__0807680_pe770479_s5.jpg?f=s"
+      ],
+      "type": "Children's room",
+      "size": "39x17 3/8x37",
+      "isRecycling": false
+    },
+    {
+      "id": "3",
+      "name": "ANTILOP",
+      "subtitle": "High chair with safety belt, white/silver color",
+      "price": 21.99,
+      "rating": 4.5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/antilop-high-chair-with-safety-belt-white-silver-color__0727491_pe735716_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/antilop-high-chair-with-safety-belt-white-silver-color__0873648_pe613162_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/antilop-high-chair-with-safety-belt-white-silver-color__0873655_pe613163_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/antilop-high-chair-with-safety-belt-white-silver-color__0873777_pe613165_s5.jpg?f=s"
+      ],
+      "type": "Children's room",
+      "size": "0",
+      "isRecycling": false
+    },
+    {
+      "id": "4",
+      "name": "SEKTION / MAXIMERA",
+      "subtitle": "Base cabinet with 3 drawers, white Enköping/white wood effect",
+      "price": 314,
+      "rating": 4.5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/sektion-maximera-base-cabinet-with-3-drawers-white-bodarp-gray-green__0769954_pe755356_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/sektion-maximera-base-cabinet-with-3-drawers-white-bodarp-gray-green__0766781_pe753897_s5.jpg?f=xl",
+        "https://www.ikea.com/us/en/images/products/sektion-maximera-base-cabinet-with-3-drawers-white-bodarp-gray-green__1030310_ph165000_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/sektion-maximera-base-cabinet-with-3-drawers-white-bodarp-gray-green__1011630_ph174301_s5.jpg?f=s"
+      ],
+      "type": "Kitchen",
+      "size": "  24x24x30",
+      "isRecycling": false
+    },
+    {
+      "id": "5",
+      "name": "VADHOLMA",
+      "subtitle": "Open storage, brown/stained ash",
+      "price": 81,
+      "rating": 4,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/vadholma-open-storage-brown-stained-ash__0551843_pe658811_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/vadholma-open-storage-brown-stained-ash__0862710_pe689372_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/vadholma-open-storage-brown-stained-ash__0862718_pe692042_s5.jpg?f=s"
+      ],
+      "type": "Kitchen",
+      "size": "9x14 3/8x30",
+      "isRecycling": false
+    },
+    {
+      "id": "6",
+      "name": "KILSVIKEN",
+      "subtitle": "Sink, black quartz composite",
+      "price": 227,
+      "rating": 5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/kilsviken-sink-black-quartz-composite__0831716_pe777316_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/kilsviken-sink-black-quartz-composite__0916540_pe785240_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/kilsviken-sink-black-quartz-composite__0916701_pe785346_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/kilsviken-sink-black-quartz-composite__1034191_ph176366_s5.jpg?f=s"
+      ],
+      "type": "Kitchen",
+      "size": "22x18 1/8",
+      "isRecycling": false
+    },
+    {
+      "id": "7",
+      "name": "CIRKULERA",
+      "subtitle": "Range with glass ceramic cooktop, Stainless steel",
+      "price": 729,
+      "rating": 5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/cirkulera-range-with-glass-ceramic-cooktop-stainless-steel__1065954_pe852250_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/cirkulera-range-with-glass-ceramic-cooktop-stainless-steel__1065950_pe852248_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/cirkulera-range-with-glass-ceramic-cooktop-stainless-steel__1065953_pe852251_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/cirkulera-range-with-glass-ceramic-cooktop-stainless-steel__1065952_pe852252_s5.jpg?f=s"
+      ],
+      "type": "Kitchen",
+      "size": "0",
+      "isRecycling": false
+    },
+    {
+      "id": "8",
+      "name": "ENHET",
+      "subtitle": "Bathroom, anthracite/gray frame",
+      "price": 752.56,
+      "rating": 5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/enhet-bathroom-anthracite-gray-frame__1051969_pe845856_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/enhet-bathroom-anthracite-gray-frame__1055419_pe847990_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/enhet-bathroom-anthracite-gray-frame__1049543_pe844243_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/enhet-bathroom-anthracite-gray-frame__1051916_pe845809_s5.jpg?f=s"
+      ],
+      "type": "Bathroom",
+      "size": "18x18x24",
+      "isRecycling": false
+    },
+    {
+      "id": "9",
+      "name": "NORRMANSÖ / NORRMANSÖ",
+      "subtitle": "Table+6 chairs, outdoor, acacia/beige acacia",
+      "price": 1.039,
+      "rating": 5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/norrmansoe-norrmansoe-table-6-chairs-outdoor-acacia-beige-acacia__1078032_pe857068_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/norrmansoe-norrmansoe-table-6-chairs-outdoor-acacia-beige-acacia__1078033_pe857070_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/norrmansoe-norrmansoe-table-6-chairs-outdoor-acacia-beige-acacia__1078031_pe857069_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/norrmansoe-norrmansoe-table-6-chairs-outdoor-acacia-beige-acacia__1077693_pe856978_s5.jpg?f=s"
+      ],
+      "type": "Outdoor",
+      "size": "86 5/8x39 3/8 ",
+      "isRecycling": false
+    },
+    {
+      "id": "10",
+      "name": "SOLLERÖN",
+      "subtitle": "3-seat modular sofa, outdoor, brown/Frösön/Duvholmen dark gray",
+      "price": 449.99,
+      "rating": 5,
+      "delivery": true,
+      "description": "Your child can create their own little world under this tent. A calm nook where they can feel cosy, read and play without being disturbed – and fall asleep snug. The tough dinosaurs protect against both rowdy siblings and scary dreams.",
+      "media": [
+        "https://www.ikea.com/us/en/images/products/solleroen-3-seat-modular-sofa-outdoor-brown-froesoen-duvholmen-dark-gray__0589835_pe673506_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/solleroen-3-seat-modular-sofa-outdoor-brown-froesoen-duvholmen-dark-gray__0684265_pe721085_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/solleroen-3-seat-modular-sofa-outdoor-brown-froesoen-duvholmen-dark-gray__0673314_pe717178_s5.jpg?f=s",
+        "https://www.ikea.com/us/en/images/products/solleroen-3-seat-modular-sofa-outdoor-brown-froesoen-duvholmen-dark-gray__0733031_pe738830_s5.jpg?f=s"
+      ],
+      "type": "Children's room",
+      "size": "87 3/4x32 1/4x34 5/8",
+      "isRecycling": false
+    },
+    {
+      "id": 1,
+      "name": "NYMÅNE",
+      "subtitle": "LED pendant lamp, wireless dimmable white spectrum/white.",
+      "price": 59.59,
+      "rating": 4.5,
+      "delivery": true,
+      "description": "Small and easy to place anywhere you want to bring some cosiness and mood light into your home.",
+      "media": [
+        "https://www.ikea.com/nl/en/images/products/nymane-led-pendant-lamp-wireless-dimmable-white-spectrum-white__1008045_pe826687_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/nymane-led-pendant-lamp-wireless-dimmable-white-spectrum-white__1008047_pe826688_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/nymane-led-pendant-lamp-wireless-dimmable-white-spectrum-white__1008046_pe826689_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/nymane-led-pendant-lamp-wireless-dimmable-white-spectrum-white__1074991_pe856366_s5.jpg?f=s"
+      ],
+      "type": "furniture || room",
+      "size": {
+        "Diameter": "38 cm",
+        "Height": "1.4 m"
+      },
+      "isRecycling": false
+    },
+    {
+      "id": 2,
+      "name": "SOLKLINT",
+      "subtitle": "Pendant lamp, brass/grey clear glass.",
+      "price": 34.99,
+      "rating": 5,
+      "delivery": true,
+      "description": "The lamp gives a soft light and creates a warm, cosy atmosphere in your room.",
+      "media": [
+        "https://www.ikea.com/nl/en/images/products/solklint-pendant-lamp-brass-grey-clear-glass__0842306_pe778948_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/solklint-pendant-lamp-brass-grey-clear-glass__0842308_pe778949_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/solklint-pendant-lamp-brass-grey-clear-glass__0842307_pe778950_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/solklint-pendant-lamp-brass-grey-clear-glass__0989197_ph172550_s5.jpg?f=s"
+      ],
+      "type": "furniture || room",
+      "size": {
+        "Diameter": "22 cm",
+        "Height": "32 cm "
+      },
+      "isRecycling": false
+    },
+    {
+      "id": 3,
+      "name": "STORSLINGA",
+      "subtitle": "LED chandelier, 8-armed, black/white.",
+      "price": 79.95,
+      "rating": 4,
+      "delivery": true,
+      "description": "Spreads a soft, glare-free light that is pleasant for your eyes.",
+      "media": [
+        "https://www.ikea.com/nl/en/images/products/storslinga-led-chandelier-8-armed-black-white__0982258_pe815591_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/storslinga-led-chandelier-8-armed-black-white__0982261_pe815592_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/storslinga-led-chandelier-8-armed-black-white__0982260_pe815593_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/storslinga-led-chandelier-8-armed-black-white__0982259_pe815594_s5.jpg?f=s"
+      ],
+      "type": "furniture || room",
+      "size": {
+        "Diameter": "70 cm",
+        "Height": "120 cm"
+      },
+      "isRecycling": false
+    },
+    {
+      "id": 4,
+      "name": "KRAGSTA",
+      "subtitle": "Coffee table, black.",
+      "price": 129,
+      "rating": 4,
+      "delivery": true,
+      "description": "The round shape gives you a generous table top for trays, coffee or tea services. And the neat dimensions make the table easy to place in the room.",
+      "media": [
+        "https://www.ikea.com/nl/en/images/products/kragsta-coffee-table-black__0256310_pe400186_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/kragsta-coffee-table-black__0836012_pe583805_s5.jpg?f=m",
+        "https://www.ikea.com/nl/en/images/products/kragsta-coffee-table-black__0836016_pe601356_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/kragsta-coffee-table-black__0570382_ph145745_s5.jpg?f=s"
+      ],
+      "type": "furniture || room",
+      "size": {
+        "Height": "48 cm",
+        "Diameter": "90 cm"
+      },
+      "isRecycling": false
+    },
+    {
+      "id": 5,
+      "name": "FRÖTORP",
+      "subtitle": "Side table, anthracite marble effect/black glass.",
+      "price": 99.95,
+      "rating": 5,
+      "delivery": true,
+      "description": "Well-thought-out design with various materials and finishes with a table top in smoked glass, powder-coated tubular steel legs and a base with marble effect give the table a personal character.",
+      "media": [
+        "https://www.ikea.com/nl/en/images/products/frotorp-side-table-anthracite-marble-effect-black-glass__1022509_pe832777_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/frotorp-side-table-anthracite-marble-effect-black-glass__1022510_pe832780_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/frotorp-side-table-anthracite-marble-effect-black-glass__1071624_pe854994_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/frotorp-side-table-anthracite-marble-effect-black-glass__1064060_ph181422_s5.jpg?f=s"
+      ],
+      "type": "furniture || room",
+      "size": {
+        "Diameter": "48 cm",
+        "Height": "45 cm"
+      },
+      "isRecycling": false
+    },
+    {
+      "id": 6,
+      "name": "BORGEBY",
+      "subtitle": "Coffee table, birch veneer.",
+      "price": 99.95,
+      "rating": 4,
+      "delivery": true,
+      "description": "BORGEBY storage table has an elegant, simple and stylish design with a harmonious and balanced expression.",
+      "media": [
+        "https://www.ikea.com/nl/en/images/products/borgeby-coffee-table-birch-veneer__0987623_pe817609_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/borgeby-coffee-table-birch-veneer__0949801_pe800020_s5.jpg?f=m",
+        "https://www.ikea.com/nl/en/images/products/borgeby-coffee-table-birch-veneer__0949800_pe800017_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/borgeby-coffee-table-birch-veneer__0986539_pe817189_s5.jpg?f=s"
+      ],
+      "type": "furniture || room",
+      "size": {
+        "Diameter": "70 cm",
+        "Height": "42 cm"
+      },
+      "isRecycling": false
+    },
+    {
+      "id": 7,
+      "name": "GRÖNLID",
+      "subtitle": "2-seat sofa, Inseros white.",
+      "price": 499,
+      "rating": 4,
+      "delivery": true,
+      "description": "GRÖNLID sofa is soft, comfy and inviting to sink into. Deep pocket spring seat cushions, foam and a top layer of polyester fibres takes your comfort to a new level.",
+      "media": [
+        "https://www.ikea.com/nl/en/images/products/gronlid-2-seat-sofa-inseros-white__0577219_pe668687_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/gronlid-2-seat-sofa-inseros-white__0787522_pe763268_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/gronlid-2-seat-sofa-inseros-white__0966192_ph173825_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/gronlid-2-seat-sofa-inseros-white__0702645_pe724509_s5.jpg?f=s"
+      ],
+      "type": "furniture || room",
+      "size": {
+        "Diameter": " 270 cm",
+        "Height": "104 cm"
+      },
+      "isRecycling": false
+    },
+    {
+      "id": 8,
+      "name": "ALEFJÄLL",
+      "subtitle": "Office chair, Grann golden-brown.",
+      "price": 299,
+      "rating": 4.5,
+      "delivery": true,
+      "description": "The leather ages beautifully and acquires a nice patina over time.",
+      "media": [
+        "https://www.ikea.com/nl/en/images/products/alefjall-office-chair-grann-golden-brown__0724709_pe734591_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/alefjall-office-chair-grann-golden-brown__0854227_pe709348_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/alefjall-office-chair-grann-golden-brown__0798302_ph165609_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/alefjall-office-chair-grann-golden-brown__0798305_ph165605_s5.jpg?f=s"
+      ],
+      "type": "furniture || room",
+      "size": {
+        "Diameter": "64 cm",
+        "Height": "95 cm"
+      },
+      "isRecycling": false
+    },
+    {
+      "id": 9,
+      "name": "MARKUS",
+      "subtitle": "Office chair, Vissle dark grey.",
+      "price": 199,
+      "rating": 4.5,
+      "delivery": true,
+      "description": "10 year guarantee. Read about the terms in the guarantee brochure.",
+      "media": [
+        "https://www.ikea.com/nl/en/images/products/markus-office-chair-vissle-dark-grey__0724714_pe734597_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/markus-office-chair-vissle-dark-grey__1030304_pe836200_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/markus-office-chair-vissle-dark-grey__1033624_pe837359_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/markus-office-chair-vissle-dark-grey__0399810_pe563882_s5.jpg?f=s"
+      ],
+      "type": "furniture || room",
+      "size": {
+        "Diameter": "120 cm",
+        "Height": "129 cm"
+      },
+      "isRecycling": false
+    },
+    {
+      "id": 10,
+      "name": "ALEFJÄLL",
+      "subtitle": "Office chair, Glose black",
+      "price": 299,
+      "rating": 4.5,
+      "delivery": true,
+      "description": "The leather ages beautifully and acquires a nice patina over time.",
+      "media": [
+        "https://www.ikea.com/nl/en/images/products/alefjall-office-chair-glose-black__0724715_pe734598_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/alefjall-office-chair-glose-black__0853041_pe709349_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/alefjall-office-chair-glose-black__1160289_pe888842_s5.jpg?f=s",
+        "https://www.ikea.com/nl/en/images/products/alefjall-office-chair-glose-black__0853023_pe670842_s5.jpg?f=s"
+      ],
+      "type": "furniture || room",
+      "size": {
+        "Diameter": "128 cm",
+        "Height": "95 cm"
+      },
+      "isRecycling": false
+    }
+  ]
+}
