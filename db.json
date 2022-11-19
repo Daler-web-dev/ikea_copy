@@ -49,7 +49,7 @@
         "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-2-storage-boxes-white-luroey__1101597_pe866769_s5.jpg?f=xl",
         "https://www.ikea.com/us/en/images/products/malm-high-bed-frame-2-storage-boxes-white-luroey__1101598_pe866682_s5.jpg?f=s"
       ],
-      "type": "Home office",
+      "type": "Homeoffice",
       "size": "0",
       "isRecycling": false
     },
@@ -193,7 +193,7 @@
         "https://www.ikea.com/us/en/images/products/myllra-crib-with-drawer-white__0812401_pe783213_s5.jpg?f=s",
         "https://www.ikea.com/us/en/images/products/myllra-crib-with-drawer-white__0947574_pe798596_s5.jpg?f=s"
       ],
-      "type": "Children's room",
+      "type": "Childrenroom",
       "size": " 27 1/2x52",
       "isRecycling": false
     },
@@ -211,7 +211,7 @@
         "https://www.ikea.com/us/en/images/products/trofast-storage-combination-white-gray__1046551_pe843026_s5.jpg?f=s",
         "https://www.ikea.com/us/en/images/products/trofast-storage-combination-white-orange__0807680_pe770479_s5.jpg?f=s"
       ],
-      "type": "Children's room",
+      "type": "Childrenroom",
       "size": "39x17 3/8x37",
       "isRecycling": false
     },
@@ -229,7 +229,7 @@
         "https://www.ikea.com/us/en/images/products/antilop-high-chair-with-safety-belt-white-silver-color__0873655_pe613163_s5.jpg?f=s",
         "https://www.ikea.com/us/en/images/products/antilop-high-chair-with-safety-belt-white-silver-color__0873777_pe613165_s5.jpg?f=s"
       ],
-      "type": "Children's room",
+      "type": "Childrenroom",
       "size": "0",
       "isRecycling": false
     },
@@ -354,7 +354,7 @@
         "https://www.ikea.com/us/en/images/products/solleroen-3-seat-modular-sofa-outdoor-brown-froesoen-duvholmen-dark-gray__0673314_pe717178_s5.jpg?f=s",
         "https://www.ikea.com/us/en/images/products/solleroen-3-seat-modular-sofa-outdoor-brown-froesoen-duvholmen-dark-gray__0733031_pe738830_s5.jpg?f=s"
       ],
-      "type": "Children's room",
+      "type": "Childrenroom",
       "size": "87 3/4x32 1/4x34 5/8",
       "isRecycling": false
     },
@@ -372,7 +372,7 @@
         "https://www.ikea.com/nl/en/images/products/nymane-led-pendant-lamp-wireless-dimmable-white-spectrum-white__1008046_pe826689_s5.jpg?f=s",
         "https://www.ikea.com/nl/en/images/products/nymane-led-pendant-lamp-wireless-dimmable-white-spectrum-white__1074991_pe856366_s5.jpg?f=s"
       ],
-      "type": "furniture || room",
+      "type": "Allrooms",
       "size": {
         "Diameter": "38 cm",
         "Height": "1.4 m"
@@ -393,7 +393,7 @@
         "https://www.ikea.com/nl/en/images/products/solklint-pendant-lamp-brass-grey-clear-glass__0842307_pe778950_s5.jpg?f=s",
         "https://www.ikea.com/nl/en/images/products/solklint-pendant-lamp-brass-grey-clear-glass__0989197_ph172550_s5.jpg?f=s"
       ],
-      "type": "furniture || room",
+      "type": "Allrooms",
       "size": {
         "Diameter": "22 cm",
         "Height": "32 cm "
@@ -414,7 +414,7 @@
         "https://www.ikea.com/nl/en/images/products/storslinga-led-chandelier-8-armed-black-white__0982260_pe815593_s5.jpg?f=s",
         "https://www.ikea.com/nl/en/images/products/storslinga-led-chandelier-8-armed-black-white__0982259_pe815594_s5.jpg?f=s"
       ],
-      "type": "furniture || room",
+      "type": "Allrooms",
       "size": {
         "Diameter": "70 cm",
         "Height": "120 cm"
@@ -435,7 +435,7 @@
         "https://www.ikea.com/nl/en/images/products/kragsta-coffee-table-black__0836016_pe601356_s5.jpg?f=s",
         "https://www.ikea.com/nl/en/images/products/kragsta-coffee-table-black__0570382_ph145745_s5.jpg?f=s"
       ],
-      "type": "furniture || room",
+      "type": "Allrooms",
       "size": {
         "Height": "48 cm",
         "Diameter": "90 cm"
@@ -456,7 +456,7 @@
         "https://www.ikea.com/nl/en/images/products/frotorp-side-table-anthracite-marble-effect-black-glass__1071624_pe854994_s5.jpg?f=s",
         "https://www.ikea.com/nl/en/images/products/frotorp-side-table-anthracite-marble-effect-black-glass__1064060_ph181422_s5.jpg?f=s"
       ],
-      "type": "furniture || room",
+      "type": "Allrooms",
       "size": {
         "Diameter": "48 cm",
         "Height": "45 cm"
@@ -477,7 +477,7 @@
         "https://www.ikea.com/nl/en/images/products/borgeby-coffee-table-birch-veneer__0949800_pe800017_s5.jpg?f=s",
         "https://www.ikea.com/nl/en/images/products/borgeby-coffee-table-birch-veneer__0986539_pe817189_s5.jpg?f=s"
       ],
-      "type": "furniture || room",
+      "type": "Allrooms",
       "size": {
         "Diameter": "70 cm",
         "Height": "42 cm"
@@ -498,7 +498,7 @@
         "https://www.ikea.com/nl/en/images/products/gronlid-2-seat-sofa-inseros-white__0966192_ph173825_s5.jpg?f=s",
         "https://www.ikea.com/nl/en/images/products/gronlid-2-seat-sofa-inseros-white__0702645_pe724509_s5.jpg?f=s"
       ],
-      "type": "furniture || room",
+      "type": "Allrooms",
       "size": {
         "Diameter": " 270 cm",
         "Height": "104 cm"
@@ -519,7 +519,7 @@
         "https://www.ikea.com/nl/en/images/products/alefjall-office-chair-grann-golden-brown__0798302_ph165609_s5.jpg?f=s",
         "https://www.ikea.com/nl/en/images/products/alefjall-office-chair-grann-golden-brown__0798305_ph165605_s5.jpg?f=s"
       ],
-      "type": "furniture || room",
+      "type": "Allrooms",
       "size": {
         "Diameter": "64 cm",
         "Height": "95 cm"
@@ -540,7 +540,7 @@
         "https://www.ikea.com/nl/en/images/products/markus-office-chair-vissle-dark-grey__1033624_pe837359_s5.jpg?f=s",
         "https://www.ikea.com/nl/en/images/products/markus-office-chair-vissle-dark-grey__0399810_pe563882_s5.jpg?f=s"
       ],
-      "type": "furniture || room",
+      "type": "Allrooms",
       "size": {
         "Diameter": "120 cm",
         "Height": "129 cm"
@@ -561,7 +561,7 @@
         "https://www.ikea.com/nl/en/images/products/alefjall-office-chair-glose-black__1160289_pe888842_s5.jpg?f=s",
         "https://www.ikea.com/nl/en/images/products/alefjall-office-chair-glose-black__0853023_pe670842_s5.jpg?f=s"
       ],
-      "type": "furniture || room",
+      "type": "Allrooms",
       "size": {
         "Diameter": "128 cm",
         "Height": "95 cm"
