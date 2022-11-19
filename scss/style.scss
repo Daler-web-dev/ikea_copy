@@ -3,10 +3,536 @@
     margin: 0px;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.conteiner {
+    max-width: 1920px;
+    margin: 0 auto;
+
+    header {
+        height: 120px;
+        width: 100%;
+        border-bottom: 2px solid gainsboro;
+        margin-bottom: 100px;
+
+        .header_top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 50%;
+
+            .header_top_left {
+                display: flex;
+                align-items: center;
+                height: 50%;
+                gap: 50px;
+
+                form {
+                    height: 54px;
+                    width: 870px;
+                    background-color: #F5F5F5;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-radius: 30px;
+                    padding: 0 20px;
+
+                    div {
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                    }
+
+                    input {
+                        all: unset;
+                        width: 770px;
+                        // background-color: red;
+                        height: 54px;
+                    }
+
+                    img {
+                        cursor: pointer;
+                    }
 
 
-body {
-    background-color: red;
+                }
+            }
+
+
+            .login {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                img {
+                    width: 16px;
+                    height: 16px;
+                }
+
+                .log_in {
+                    all: unset;
+                    width: 195px;
+                    height: 45px;
+                    display: flex;
+                    align-items: center;
+                    background-color: transparent;
+                    gap: 15px;
+                    border-radius: 30px;
+                    padding: 0 0px 0 10px;
+                    transition: 0.1s ease;
+                    cursor: pointer;
+
+                    &:hover {
+
+                        background-color: #F5F5F5;
+                    }
+                }
+
+                .btn {
+                    all: unset;
+
+                    width: 45px;
+                    height: 45px;
+                    transition: 0.1s ease;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 100%;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #F5F5F5;
+                    }
+                }
+            }
+
+            .logo {
+                display: block;
+                width: 90px;
+                height: 36px;
+                background-color: rebeccapurple;
+
+            }
+
+        }
+
+        .header_bottom {
+            width: 100%;
+            height: 50%;
+            // background-color: red;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .header_bottom_left {
+                display: flex;
+                align-items: center;
+                gap: 35px;
+
+
+                a {
+                    all: unset;
+                    cursor: pointer;
+
+                    p {
+                        font-size: 23px;
+                    }
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+
+                }
+
+            }
+
+            .header_bottom_right {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+
+                a {
+                    all: unset;
+
+                    p {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+
+                        img {
+                            width: 30px;
+                            height: 30px;
+
+                        }
+
+                        span {
+                            font-size: 23px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .amin_cont {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        gap: 30px;
+        overflow-x: scroll;
+
+        .box {
+            height: 100%;
+            min-width: 300px;
+            background-color: blue;
+            display: flex;
+            align-items: flex-end;
+            background-position: center;
+            background-size: cover;
+
+            .link_room {
+                all: unset;
+                width: 150px;
+                height: 55px;
+                border-radius: 30px;
+                background-color: white;
+                margin: 100px auto;
+                text-align: center;
+                cursor: pointer;
+                transition: 0.3s ease;
+
+                &:hover {
+                    background-color: gainsboro;
+                }
+            }
+        }
+    }
+
+
+
+}
+
+
+footer {
     width: 100%;
-    height: 100vh;
+    height: fit-content;
+    background-color: #F5F5F5;
+    padding-top: 100px;
+
+    .footer_cont {
+        max-width: 1920px;
+        height: fit-content;
+        margin: 0 auto;
+
+        .footer_top {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .footer_top_left {
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                p{
+                    font-size: 20px;
+                }
+                a {
+                    color: black;
+                    cursor: pointer;
+
+                }
+
+                .footer_log_btn {
+                    width: 142px;
+                    height: 42px;
+                    background-color: black;
+                    color: white;
+                    border-radius: 20px;
+                    transition: 0.3s ease;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: rgba(0, 0, 0, 0.684);
+                    }
+                }
+            }
+
+            .footer_top_right {
+                width: 70%;
+
+                .main_ul {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .main_ul_li {
+                        all: unset;
+
+                        .chd_ul {
+                            margin-top: 20px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                        }
+
+                        a {
+                            all: unset;
+                            cursor: pointer;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+
+                            li {
+                                all: unset;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer_middle {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 100px;
+
+            .footer_middle_left {
+                .footer_middle_left_ul {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+ 
+                    .middle_left_li {
+
+
+                        all: unset;
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: #c0c0c0 1px solid;
+                        border-radius: 100%;
+
+                        .img1 {
+                            width: 34px;
+                        }
+
+                        .img2 {
+                            width: 34px;
+                        }
+
+                        cursor: pointer;
+
+                        &:hover {
+                            border: black 1px solid;
+
+                        }
+                    }
+
+                    .bor {
+                        border-radius: 10px;
+                        width: 60px;
+                        height: 50px;
+                    }
+                }
+            }
+
+            .footer_middle_right {
+                display: flex;
+                align-items: center;
+                gap: 50px;
+
+                a {
+                    all: unset;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding: 10px 20px;
+                    border: #c0c0c0 1px solid;
+                    border-radius: 20px;
+
+                    &:hover {
+                        border: black 1px solid;
+
+                    }
+                }
+
+                select {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding: 12px 20px;
+                    border: #c0c0c0 1px solid;
+                    border-radius: 20px;
+                    background-color: transparent;
+
+                    &:hover {
+                        border: black 1px solid;
+
+                    }
+                }
+            }
+        }
+
+        .footer_bottom {
+            margin-top: 50px;
+            width: 100%;
+            border-top: #c0c0c0 1px solid;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 0;
+
+
+            .footer_bottom_right {
+                ul {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    li {
+                        all: unset;
+
+                        a {
+                            all: unset;
+                        }
+
+                        cursor: pointer;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+.amirjon_cont_means_of_communication {
+    width: 1620px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .amirjon_cont_AI_item {
+        width: 403px;
+        height: 150px;
+        padding: 20px 0px;
+        justify-content: space-between;
+        background-color: #F5F5F5;
+        text-align: center;
+
+        img {
+            width: 35px;
+        }
+
+        p {
+            margin: 8px 0px;
+        }
+
+        a {
+            color: black;
+        }
+    }
+}
+
+.amirjon_cont_additional_information {
+    width: 1620px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+
+    .amirjon_cont_AI_one {
+        width: 65%;
+        height: 100%;
+        background-image: url(https://www.ikea.com/images/ba/53/ba5363ad8f254b5e180d41c702172a1c.jpg?f=xl);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .amirjon_cont_AI_two {
+        width: 35%;
+        height: 100%;
+        background-color: #00853E;
+        padding: 35px 45px;
+        
+        h2 {
+            color: white;
+            font-weight: 700;
+            font-size: 33px;
+        }
+
+        button {
+            padding: 15px 25px;
+            margin: 20px 0px;
+            border-radius: 50px;
+            font-size: 16px;
+            border: none;
+            border-color: white;
+        }
+    }
+}
+
+.amirjon_hr {
+    width: 1620px;
+    margin: 10px auto;
+    border: none;
+    border-top: 1px solid grey;
+}
+
+.amirjon_cont_additional_information_two {
+    width: 1620px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    .amirjon_cont_two_AI_one {
+        width: 50%;
+        height: 100%;
+        background-image: url(https://www.ikea.com/images/metallisk-espresso-maker-4e934749c463785683f63eb620861a82.jpg?f=xl);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .amirjon_cont_two_AI_two {
+        width: 50%;
+        height: 100%;
+        padding: 0px 15px;
+        
+        h2 {
+            color: rgb(0, 0, 0);
+            font-weight: 800;
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 500;
+            margin: 20px 0px;
+        }
+
+        button {
+            padding: 15px 25px;
+            margin: 20px 0px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 500;
+            border: none;
+            color: white;
+            background-color: rgb(0, 0, 0);
+        }
+    }
 }
