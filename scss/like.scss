@@ -1,0 +1,178 @@
+.conteiner {
+    .logo_like {
+        font-size: 50px;
+        margin-top: 50px;
+    }
+
+    .like_text {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .new_list {
+
+        all: unset;
+        width: 192px;
+        height: 56px;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        gap: 10px;
+        margin: 50px 0;
+
+        img {
+            width: 24px;
+            height: 24px;
+            filter: invert(100%);
+        }
+
+        cursor: pointer;
+
+    }
+
+    .join_ikeaa {
+        width: 100%;
+        background-color: #007CC1;
+        color: white;
+        padding: 3rem;
+
+        ul {
+            margin: 20px 0;
+            margin-left: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .join_free_btn {
+            all: unset;
+            width: 150px;
+            height: 56px;
+            background-color: white;
+            color: black;
+            text-align: center;
+            border-radius: 20px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .login_btnn {
+            all: unset;
+            text-align: center;
+            border-radius: 20px;
+            margin-left: 20px;
+            width: 100px;
+            height: 54px;
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+
+    .create_like {
+        margin-top: 50px;
+        width: 100%;
+        height: fit-content;
+
+        .like_create_cont {
+            width: 100%;
+            height: 518px;
+            overflow-x: scroll;
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+
+            .like_create_box {
+                min-width: 290px;
+                height: 100%;
+                background-color: #e9e9e9;
+            }
+        }
+    }
+
+    .like_filter_cont {
+        width: 100%;
+        margin-top: 50px;
+
+        .like_variant {
+            width: 100%;
+            height: fit-content;
+            overflow-x: scroll;
+            display: flex;
+            // align-items: center;
+            gap: 30px;
+            margin: 50px 0;
+
+            .br {
+                min-width: 300px;
+                width: fit-content;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 40px;
+                font-size: 23px;
+                text-align: left;
+                background-color: #e9e9e9;
+                border-radius: 20px;
+                // padding: 30px;
+            }
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+        }
+
+        .like_create_filter {
+            width: 100%;
+            display: flex;
+            gap: 20px;
+            .like_create_filter_wrap {
+                width: 33%;
+                height: fit-content;
+                display: flex;
+                flex-direction: column;
+
+                .item {
+                    height: 580px;
+                    width: 100%;
+                    background-color: #007CC1;
+                    margin-top: 20px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .item2{
+                    height: 390px;
+                    width: 100%;
+
+                    background-color: #007CC1;
+                    margin-top: 20px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+
+        }
+        .more{
+            all: unset;
+            display: block;
+
+            margin: 100px auto;
+            padding: 0 24px;
+            height: 40px;
+            border-radius: 25px;
+            background-color: black;
+            color: white;
+        }
+    }
+}

@@ -1,12 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    
+
+    <div class="conteiner">
+        <div class="menu_btn">
+            <img src="../icons/menu.svg" width="28px">
+            <p>Menu</p>
+        </div>
+        <header>
+            <div class="header_top">
+                <div class="header_top_left">
+                    <img class='logo' src="https://www.ikea.com/nl/en/static/ikea-logo.f7d9229f806b59ec64cb.svg" alt="">
+                    <form name="search">
+                        <div>
+                            <img src="../icons/211817_search_strong_icon.svg" width="16px" height="16px" alt="">
+                            <input type="text" placeholder="What are you looking for?">
+                        </div>
+                        <img class="photo" src="../icons/115759_camera_icon.svg" width="16px" height="16px" alt="">
+                    </form>
+                </div>
+
+                <div class="login">
+                    <button class="log_in">
+                        <img src="../icons/1564534_customer_man_user_account_profile_icon (1).svg" alt="">
+                        <span>Hej! Log in or sing up</span>
+                    </button>
+                    <button class="like btn">
+                        <img src="../icons/8664909_heart_like_icon.svg" alt="">
+                    </button>
+                    <button class="basket btn">
+                        <img src="../icons/3507743_basket_iconoteka_shop_shopping_store_icon.svg" alt="">
+                    </button>
+                </div>
+
+
+            </div>
+            <div class="header_bottom">
+                <div class="header_bottom_left">
+                    <a href="#">
+                        <p>Products</p>
+                    </a>
+                    <a href="#">
+                        <p>Rooms</p>
+                    </a>
+                    <a href="#">
+                        <p>What's new</p>
+                    </a>
+                    <a href="#">
+                        <p>Offers</p>
+                    </a>
+
+                </div>
+                <div class="header_bottom_right">
+                    <a href="#">
+                        <p><img src="../icons/7019497_shipping_transportation_delivery_truck_online_icon.svg" alt="">
+                            <span>Enter postcode</span>
+                        </p>
+                    </a>
+                    <a href="#">
+                        <p><img src="../icons/9042517_garage_icon.svg" alt=""> <span>Hengelo</span></p>
+                    </a>
+
+                </div>
+            </div>
+
+        </header>
+
+        <h1 class="logo_like">Your wish list looks empty!</h1>
+        <p class="like_text">What are your favourites? Save and arrange the best bits of your future home here until
+            you’re ready for them.</p>
+
+        <button class="new_list">
+            <img src="../icons/create.svg">
+            <span>Create new list</span>
+        </button>
+
+        <div class="join_ikeaa">
+            <h1>Don’t miss out. Join IKEA Family for free today</h1>
+
+            <ul>
+                <li>Free hot drink, Monday - Friday</li>
+                <li>Member discounts</li>
+            </ul>
+
+            <button class="join_free_btn">Join for free</button>
+            <button class="login_btnn">Log in</button>
+        </div>
+
+        <div class="create_like">
+            <h1>Recommended for you</h1>
+            <div class="like_create_cont">
+                    <div class="like_create_box"></div>
+                    <div class="like_create_box"></div>
+                    <div class="like_create_box"></div>
+                    <div class="like_create_box"></div>
+                    <div class="like_create_box"></div>
+                    <div class="like_create_box"></div>
+                    <div class="like_create_box"></div>
+                    <div class="like_create_box"></div>
+                    <div class="like_create_box"></div>
+                    <div class="like_create_box"></div>
+                    <div class="like_create_box"></div>
+                    <div class="like_create_box"></div>
+            </div>
+        </div>
+
+
+        <div class="like_filter_cont">
+            <h1>More ideas and inspiration</h1>
+
+            <div class="like_variant">
+                <div class="br">All</div>
+                <div class="br">Bedroom</div>
+                <div class="br">Living Room</div>
+                <div class="br">Kitchen</div>
+                <div class="br">Workspace</div>
+                <div class="br">Outdoor</div>
+                <div class="br"><p>Baby & Children Room</p></div>
+                <div class="br">Dining</div>
+                <div class="br">Hallway  </div>
+                <div class="br">Laundry</div>
+                <div class="br">Accessories</div>
+                
+            </div>
+            
+            <div class="like_create_filter">
+                <div class="like_create_filter_wrap">
+                    <div class="item">
+                        <img src="https://www.ikea.com/ext/ingkadam/m/5ebd55039111831e/original/PE752932-crop002.jpg?f=m" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ikea.com/ext/ingkadam/m/603ea47352383e33/original/PH164310-crop001.jpg?f=m" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ikea.com/ext/ingkadam/m/393a1bb7dd88c915/original/PH167282-crop001.jpg?f=m" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ikea.com/ext/ingkadam/m/7d5885de012bd90d/original/PE787797-crop001.jpg?f=m" alt="">
+                    </div>
+                </div>
+                <div class="like_create_filter_wrap">
+                    <div class="item2">
+                        <img src="https://www.ikea.com/ext/ingkadam/m/4bacc06ebcd8dc6b/original/PH156747-crop006.jpg?f=m" alt="">
+
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ikea.com/ext/ingkadam/m/10d34285caaefc34/original/PH162798-crop001.jpg?f=m" alt="">
+
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ikea.com/ext/ingkadam/m/31aa015d2308d00/original/PH177035-crop001.jpg?f=m" alt="">
+
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ikea.com/ext/ingkadam/m/3de9ffbc6f2c3e7a/original/PH157588-crop001.jpg?f=m" alt="">
+
+                    </div>
+
+                </div>
+                <div class="like_create_filter_wrap">
+                    <div class="item">
+                        <img src="https://www.ikea.com/ext/ingkadam/m/3251eb19e92d3085/original/PH156954-crop001.jpg?f=m" alt="">
+
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ikea.com/ext/ingkadam/m/18bdd9870c8bf16f/original/PE791737-crop001.jpg?f=m" alt="">
+
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ikea.com/ext/ingkadam/m/112d21bb46f8e063/original/PH164148-crop001.jpg?f=m" alt="">
+
+                    </div>
+                    <div class="item">
+                        <img src="https://www.ikea.com/ext/ingkadam/m/58f052f5d1508636/original/PH163126-crop001.jpg?f=m" alt="">
+
+                    </div>
+
+                </div>
+                
+            </div>
+            <button class="more">Load 12 more</button>
+        </div>
+
+
+
+
+    </div>
+
+    <footer>
+        <div class="footer_cont">
+            <div class="footer_top">
+                <div class="footer_top_left">
+                    <h2>Join IKEA Family</h2>
+                    <p>Bring your ideas to life with special discounts, inspiration, and lots of good things in
+                        store.
+                        It's all free.</p>
+                    <a href="#">
+                        <p>See more</p>
+                    </a>
+                    <button class="footer_log_btn">Join or log in </button>
+                </div>
+                <div class="footer_top_right">
+                    <ul class="main_ul">
+                        <li class="main_ul_li">
+                            <h3>Customer service</h3>
+                            <ul class="chd_ul">
+                                <a href="#">
+                                    <li>Customer service</li>
+                                </a>
+                                <a href="#">
+                                    <li>My orders</li>
+                                </a>
+                                <a href="#">
+                                    <li>Returns & claims</li>
+                                </a>
+                                <a href="#">
+                                    <li>Delivery</li>
+                                </a>
+                                <a href="#">
+                                    <li>Stock information</li>
+                                </a>
+                                <a href="#">
+                                    <li>Services</li>
+                                </a>
+                                <a href="#">
+                                    <li>Recalls</li>
+                                </a>
+                                <a href="#">
+                                    <li>Personal advice</li>
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="main_ul_li">
+                            <h3>About IKEA</h3>
+                            <ul class="chd_ul">
+                                <a href="#">
+                                    <li>This is IKEA</li>
+                                </a>
+                                <a href="#">
+                                    <li>IKEA concept</li>
+                                </a>
+                                <a href="#">
+                                    <li>Sustainability</li>
+                                </a>
+                                <a href="#">
+                                    <li>Ideas & inspiration</li>
+                                </a>
+                                <a href="#">
+                                    <li>Catalogue & brochures</li>
+                                </a>
+                                <a href="#">
+                                    <li>Campaigns</li>
+                                </a>
+                                <a href="#">
+                                    <li>Working at IKEA</li>
+                                </a>
+                                <a href="#">
+                                    <li>Press</li>
+                                </a>
+                                <a href="#">
+                                    <li>IKEA news</li>
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="main_ul_li">
+                            <h3>Shopping at IKEA</h3>
+                            <ul class="chd_ul">
+                                <a href="#">
+                                    <li>Opening hours</li>
+                                </a>
+                                <a href="#">
+                                    <li>All stores</li>
+                                </a>
+                                <a href="#">
+                                    <li>Offers</li>
+                                </a>
+                                <a href="#">
+                                    <li>Swedish restaurant</li>
+                                </a>
+                                <a href="#">
+                                    <li>Swedish Food Market</li>
+                                </a>
+                                <a href="#">
+                                    <li>IKEA App</li>
+                                </a>
+                                <a href="#">
+                                    <li>Gift card</li>
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="main_ul_li">
+                            <h3>IKEA Family & Business</h3>
+                            <ul class="chd_ul">
+                                <a href="#">
+                                    <li>Log in</li>
+                                </a>
+                                <a href="#">
+                                    <li>Sign up</li>
+                                </a>
+                                <a href="#">
+                                    <li>About IKEA Family</li>
+                                </a>
+                                <a href="#">
+                                    <li>Benefits</li>
+                                </a>
+                                <a href="#">
+                                    <li>Events</li>
+                                </a>
+                                <a href="#">
+                                    <li>IKEA for Business</li>
+                                </a>
+
+
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="footer_middle">
+                <div class="footer_middle_left">
+                    <ul class="footer_middle_left_ul">
+                        <li class="middle_left_li">
+                            <img class="img1" src="../icons/facebook.svg" alt="">
+                        </li>
+                        <li class="middle_left_li">
+                            <img class="img1" src="../icons/instagrams.svg" alt="">
+                        </li>
+                        <li class="middle_left_li">
+                            <img class="img1" src="../icons/pinterest.svg" alt="">
+                        </li>
+                        <li class="middle_left_li">
+                            <img class="img1" src="../icons/youtube.svg" alt="">
+                        </li>
+                        <li class="middle_left_li bor">
+                            <img class="img2" src="../icons/iDeal.svg" alt="">
+                        </li>
+                        <li class="middle_left_li bor">
+                            <img class="img2" src="../icons/Mastercard.svg" alt="">
+                        </li>
+                        <li class="middle_left_li bor">
+                            <img class="img2" src="../icons/Visa.svg" alt="">
+                        </li>
+                        <li class="middle_left_li bor">
+                            <img class="img2"
+                                src="https://www.ikea.com/global/assets/logos/external-payment-providers/klarna.svg"
+                                alt="">
+                        </li>
+                        <li class="middle_left_li bor">
+                            <img class="img2"
+                                src="https://www.ikea.com/global/assets/logos/external-payment-providers/ikea-gift-card.svg"
+                                alt="">
+                        </li>
+                        <li class="middle_left_li bor">
+                            <img class="img2"
+                                src="https://www.ikea.com/global/assets/logos/external-payment-providers/american-express.svg"
+                                alt="">
+                        </li>
+                        <li class="middle_left_li bor">
+                            <img class="img2"
+                                src="https://www.ikea.com/global/assets/logos/external-payment-providers/paypal.svg"
+                                alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_middle_right">
+                    <a href="#"><img src="../icons/global.svg" width="20px" alt=""> <span>Change country</span></a>
+                    <select name="" id="">
+                        <option value="English">English</option>
+                        <option value="Nederlands">Nederlands</option>
+
+                    </select>
+                </div>
+
+            </div>
+            <div class="footer_bottom">
+                <div class="footer_bottom_left">
+                    <p>© Inter IKEA Systems B.V. 1999-2022</p>
+                </div>
+                <div class="footer_bottom_right">
+                    <ul>
+                        <li>
+                            <a href="#">Privacy policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Cookies</a>
+                        </li>
+                        <li>
+                            <a href="#">Cookie settings</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms and conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">User terms and conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Responsible Disclosure Program</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+
+
 </body>
+
 </html>
