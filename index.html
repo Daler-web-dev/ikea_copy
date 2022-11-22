@@ -277,16 +277,12 @@
           "
           class="swiper mySwiper2"
         >
-          <div id="mySwiper" class="swiper-wrapper">
-            
-          </div>
+          <div id="mySwiper" class="swiper-wrapper"></div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
         </div>
         <div thumbsSlider="" class="swiper mySwiper">
-          <div id="mySwiper" class="swiper-wrapper">
-            
-          </div>
+          <div id="mySwiper" class="swiper-wrapper"></div>
         </div>
       </div>
 
@@ -412,6 +408,30 @@
             for a full refund.
           </p>
           <button>More information</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="time_cont">
+      <div class="time">
+        <h1>Цены действительны</h1>
+        <div class="time_main">
+          <div class="time_box activetime">
+            <p id="days">40</p>
+            <span>Дней</span>
+          </div>
+          <div class="time_box activetime">
+            <p id="hours">40</p>
+            <span>Часа</span>
+          </div>
+          <div class="time_box activetime">
+            <p id="minutes">40</p>
+            <span>Минут</span>
+          </div>
+          <div class="time_box">
+            <p id="seconds">40</p>
+            <span>Секунд</span>
+          </div>
         </div>
       </div>
     </div>
@@ -645,6 +665,7 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./index.js"></script>
+    <script src="./modules/timer.js"></script>
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
