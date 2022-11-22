@@ -18,6 +18,23 @@ let imgs = [
     "https://www.ikea.com/nl/en/images/products/frotorp-side-table-anthracite-marble-effect-black-glass__1071624_pe854994_s5.jpg?f=s",
 ]
 
+let swiperContainer = document.querySelectorAll('#mySwiper')
+
+
+const reloadSlides = (place, arr) => {
+    for(let item of arr) {
+        place.innerHTML += `
+            <div class="swiper-slide">
+                <img src="${item}" />
+            </div>
+        `
+    }
+}
+
+
+reloadSlides(swiperContainer[0], imgs)
+reloadSlides(swiperContainer[1], imgs)
+
 axios.get("http://localhost:7777/array")
     .then(res => {
         // reload(res.data)

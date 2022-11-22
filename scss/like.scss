@@ -133,6 +133,7 @@
             width: 100%;
             display: flex;
             gap: 20px;
+
             .like_create_filter_wrap {
                 width: 33%;
                 height: fit-content;
@@ -144,18 +145,21 @@
                     width: 100%;
                     background-color: #007CC1;
                     margin-top: 20px;
-                    img{
+
+                    img {
                         width: 100%;
                         height: 100%;
                     }
                 }
-                .item2{
+
+                .item2 {
                     height: 390px;
                     width: 100%;
 
                     background-color: #007CC1;
                     margin-top: 20px;
-                    img{
+
+                    img {
                         width: 100%;
                         height: 100%;
                     }
@@ -164,7 +168,8 @@
 
 
         }
-        .more{
+
+        .more {
             all: unset;
             display: block;
 
@@ -183,4 +188,97 @@
     position: sticky;
     top: 0px;
     padding: 25px 0px;
+}
+
+// swiper
+.container-swiper {
+    width: 100%;
+    height: 500px;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
