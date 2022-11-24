@@ -17,16 +17,12 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
     padding-top: 50px;
-
     // padding-bottom: 550px;
-
     .products_create_box {
         height: 600px;
         background-color: transparent;
         border-bottom: #adadad 1px solid;
-        
         a {
-            
             width: 100%;
             height: 50%;
             all: unset;
@@ -44,7 +40,6 @@
             &:hover {
                 text-decoration: underline;
             }
-
             .product_name {
                 margin-top: 20px;
             }
@@ -54,7 +49,6 @@
             margin-top: 10px;
             font-size: 14px;
             color: #484848;
-
         }
 
         .product_price {
@@ -63,12 +57,9 @@
             font-weight: bold;
             margin-top: 10px;
         }
-
         .product_rate {
             margin-top: 10px;
             display: flex;
-
-            
         }
 
         .product_var {

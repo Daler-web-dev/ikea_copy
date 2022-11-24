@@ -76,9 +76,6 @@
         <div class="productid_main">
             <div class="productid_main_left">
                 <div class="productid_grid">
-                    <div class="productid_item"></div>
-                    <div class="productid_item"></div>
-                    <div class="productid_item"></div>
                 </div>
                 <p class="text_proid">Both a side table and an air purifier that improves the indoor air quality. STARKVIND can be <br> adjusted manually, set to auto mode or be connected to DIRIGERA hub for full control via IKEA <br> Home smart app.</p>
 
@@ -124,7 +121,7 @@
                         <div class="delivery_top">
                             <div class="delivery_img">
                                 <img src="../icons/7019497_shipping_transportation_delivery_truck_online_icon.svg" width="24px" alt="">
-                            </div>
+                            </div> 
                             <div class="delivery_info">
                                 <h3>Delivery</h3>
                                 <a href="#">
@@ -388,5 +385,30 @@
     </footer>
 
     <script src="../pages js/productsid.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        let path = window.location.search
+        let productid_grid = document.querySelector('.productid_grid')
+
+        axios.get('http://localhost:7777/array' + path)
+            .then(res => {
+                let data = res.data[0]
+                let images = data.media
+
+                for(let img of images) {
+                    let productid_item = document.createElement('div')
+                    productid_item.classList.add('productid_item')
+                    productid_item.style.backgroundImage = `url("${img}")`
+                    productid_grid.append(productid_item)
+                }
+
+
+
+            })        
+
+
+    </script>
+
 </body>
 </html>

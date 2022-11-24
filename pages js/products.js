@@ -6,9 +6,6 @@ axios.get("http://localhost:7777/array")
 
     })
 
-
-
-
 function setRating(ratingValue , ratingActive) {
     let percent = (ratingValue / 5 * 100).toFixed(0);
     ratingActive.style.width = `${percent}%`
@@ -67,7 +64,7 @@ function reloadProducts(arr, place) {
         product_like.classList.add('product_like')
         product_in.classList.add('product_in')
 
-        a.href = '#'
+        a.href = '../pages/productid.html?id=' + item.id
         product_ballet_img.src = '../icons/3507743_basket_iconoteka_shop_shopping_store_icon.svg'
         product_like_img.src = '../icons/8664909_heart_like_icon.svg'
         products_box_img.style.backgroundImage = `url(${item.media[0]})`
@@ -100,7 +97,6 @@ function reloadProducts(arr, place) {
         product_ballet.append(product_ballet_img)
         product_like.append(product_like_img)
         product_in.append(span, p)
-
 
     }
   

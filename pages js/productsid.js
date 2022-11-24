@@ -1,5 +1,3 @@
-
-
 let productid_window =document.querySelector('.productid_window')
 let productid_bg =document.querySelector('.productid_bg')
 let productid_close_menu =document.querySelector('.productid_close_menu')
@@ -21,7 +19,3 @@ productid_bg.onclick = () =>{
     productid_window.style.display = 'none'
     productid_bg.style.display = 'none'
 }
-
-
-
-
