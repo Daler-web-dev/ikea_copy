@@ -1,9 +1,9 @@
 let products_create_cont = document.querySelector('.products_create_cont')
+let liked = JSON.parse(localStorage.getItem('liked')) || []
 
 axios.get("http://localhost:7777/array")
     .then(res => {
         reloadProducts(res.data , products_create_cont)
-
     })
 
 function setRating(ratingValue , ratingActive) {
@@ -65,8 +65,12 @@ function reloadProducts(arr, place) {
         product_in.classList.add('product_in')
 
         a.href = '../pages/productid.html?id=' + item.id
+        if(liked.includes(item.id)) {
+            product_like_img.src = "../icons/like.svg"
+        } else {
+            product_like_img.src = '../icons/8664909_heart_like_icon.svg'
+        }
         product_ballet_img.src = '../icons/3507743_basket_iconoteka_shop_shopping_store_icon.svg'
-        product_like_img.src = '../icons/8664909_heart_like_icon.svg'
         products_box_img.style.backgroundImage = `url(${item.media[0]})`
         product_name.innerHTML = item.name
         product_title.innerHTML = item.subtitle
@@ -97,6 +101,18 @@ function reloadProducts(arr, place) {
         product_ballet.append(product_ballet_img)
         product_like.append(product_like_img)
         product_in.append(span, p)
+
+
+        product_like.onclick = () => {
+            if(liked.includes(item.id)) {
+                liked = liked.filter(el => el != item.id)
+                product_like_img.src = '../icons/8664909_heart_like_icon.svg'
+            } else {
+                product_like_img.src = "../icons/like.svg"
+                liked.push(item.id)
+            }
+            localStorage.setItem('liked', JSON.stringify(liked))
+        }
 
     }
   
