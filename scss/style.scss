@@ -197,15 +197,16 @@
 
 .conteiner {
     max-width: 1920px;
+    height: fit-content;
     margin: 0 auto;
-    padding: 0 10%;
+    padding: 0 150px;
     position: relative;
-
+    background-color: #FFFFFF;
     .menu_btn {
         width: 40px;
-        position: fixed;
-        top: 30px;
-        left: 5%;
+        position: sticky;
+        top: 50px;
+        margin-left: -100px;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -224,8 +225,8 @@
         height: 120px;
         width: 100%;
         border-bottom: 2px solid gainsboro;
-        // margin-bottom: 100px;
-
+        margin-bottom: 100px;
+        
         .header_top {
             display: flex;
             align-items: center;
@@ -437,7 +438,8 @@ footer {
         max-width: 1920px;
         height: fit-content;
         margin: 0 auto;
-        padding: 0 10%;
+        padding: 0 150px;
+
 
         .footer_top {
             width: 100%;
@@ -853,11 +855,11 @@ footer {
     background-image: url(https://static.mvideo.ru/media/Promotions/Promo_Page/2022/October/chyornaya-pyatnica-skidki/img/bf/bg-timer.png);
     background-position: center;
     background-size: cover;
-
+    
     .time {
         color: white;
         height: 100%;
-        width: 40%;
+        max-width: 1920px;
         margin: 0 auto;
         text-align: center;
         padding-top: 50px;
@@ -888,6 +890,51 @@ footer {
             .activetime {
                 border-right: 1px solid #c0c0c0;
             }
+        }
+    }
+}
+
+
+
+
+
+.rating_body{
+    position: relative;
+    &::before{
+        content: '★★★★★';
+        display: block;
+        color: #adadad;
+        font-size: 20px;
+    }
+    .rating_items{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        flex: 0 0 20%;
+        opacity: 0;
+        
+    }
+    .rating_active{
+        position: absolute;
+        width: 0%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        &::before{
+            content: '★★★★★';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            color: black;
+            font-size: 20px;
+
+
         }
     }
 }

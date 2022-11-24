@@ -22,7 +22,7 @@ let swiperContainer = document.querySelectorAll('#mySwiper')
 
 
 const reloadSlides = (place, arr) => {
-    for(let item of arr) {
+    for (let item of arr) {
         place.innerHTML += `
             <div class="swiper-slide">
                 <img src="${item}" />
@@ -35,9 +35,13 @@ const reloadSlides = (place, arr) => {
 reloadSlides(swiperContainer[0], imgs)
 reloadSlides(swiperContainer[1], imgs)
 
+
+
+
 axios.get("http://localhost:7777/array")
     .then(res => {
         // reload(res.data)
+
         Object.keys(arr)
         for (let item of res.data) {
             for (let key in arr) {
@@ -158,55 +162,55 @@ let menu_rooms = [
     {
         name: 'Kitchen',
         src: "https://www.ikea.com/images/55/52/55521897a618ef472bf08fafb3d957af.jpg?f=xxxs"
-    }, 
+    },
     {
         name: 'Bedroom',
         src: "https://www.ikea.com/ext/ingkadam/m/633771f5201a96a0/original/PH186989-crop002.jpg?f=xxxs"
-    }, 
+    },
     {
         name: 'Home office',
         src: "https://www.ikea.com/images/a-desk-swivel-chair-wall-mounted-shelf-and-a-pegboard-in-whi-acaa382e517b793410c04068e69bc3f0.jpg?f=xxxs"
-    }, 
+    },
     {
         name: 'Living room',
         src: "https://www.ikea.com/images/een-lichte-luchtige-woonkamer-2cbe2b02740dbfa58ada903dcefbfd5a.png?f=xxxs"
-    }, 
+    },
     {
         name: 'Outdoor',
         src: "https://www.ikea.com/images/d7/93/d7936804be8ec90d5e2b0489a50ff684.jpg?f=xxxs"
-    }, 
+    },
     {
         name: 'Dining',
         src: "https://www.ikea.com/images/a-dining-room-with-black-chairs-and-a-table-e01c1eaf6f50ebb69425709779c97fe0.jpg?f=xxxs"
-    }, 
+    },
     {
         name: 'Bathroom',
         src: "https://www.ikea.com/images/a-bathroom-with-a-white-high-gloss-wash-stand-with-two-drawe-3477c84531f94b2c73246c3c625e2073.jpg?f=xxxs"
-    }, 
+    },
     {
         name: 'Children`s room',
         src: "https://www.ikea.com/images/childrens-bedroom-1bd51b5387138033c3e1466b52c3e794.jpg?f=xxxs"
-    }, 
+    },
     {
         name: 'Baby room',
         src: "https://www.ikea.com/images/babykamer-ikea-babybed-commode-ladekast-babytextiel-babyspee-64230605727e86245e5d05ba311ac6b6.jpg?f=xxxs"
-    }, 
+    },
     {
         name: 'Student room',
         src: "https://www.ikea.com/images/four-differently-sized-boxes-with-student-rooms-in-various-s-fd3fc893bc5ef10268f792efdf2242c7.jpg?f=xxxs"
-    }, 
+    },
     {
         name: 'Teen`s room',
         src: "https://www.ikea.com/images/tienerkamer-ikea-7985150b40defa8b34eca5a82ecab6db.jpg?f=xxxs"
-    }, 
+    },
     {
         name: 'Business place',
         src: "https://www.ikea.com/images/part-of-room-with-areas-for-relaxing-chairs-and-coffee-table-1daeba779a9970f285d9a3da54127606.jpg?f=xxxs"
-    }, 
+    },
     {
         name: 'Hallway',
         src: "https://www.ikea.com/images/2f/23/2f23028e375e926024e445aa59d52473.jpg?f=xxxs"
-    }, 
+    },
     {
         name: 'Laundry',
         src: "https://www.ikea.com/images/laundry-room-ikea-wash-sorting-wash-drying-jonaxel-series-27f2e9c6c6e3d107414758ea02d9f5a9.png?f=xxxs"
@@ -218,32 +222,27 @@ reloadMenuRooms(menu_rooms)
 function reloadMenuRooms(arr) {
     menu_create_rooms.innerHTML = ''
 
-for(let item of arr){
-    let box = document.createElement('div')
-    let img = document.createElement('img')
-    let a = document.createElement('a')
-    let p = document.createElement('p')
+    for (let item of arr) {
+        let box = document.createElement('div')
+        let img = document.createElement('img')
+        let a = document.createElement('a')
+        let p = document.createElement('p')
 
-    box.classList.add('rooms_box')
+        box.classList.add('rooms_box')
 
-    img.src = item.src
+        img.src = item.src
 
-    a.href = '#'
-    p.innerHTML= item.name
+        a.href = '#'
+        p.innerHTML = item.name
 
-    menu_create_rooms.append(box)
-    box.append(img , a)
-    a.append(p)
-    
+        menu_create_rooms.append(box)
+        box.append(img, a)
+        a.append(p)
+
+    }
+
+
 }
-
-
-}
-
-
-
-
-
 
 
 
