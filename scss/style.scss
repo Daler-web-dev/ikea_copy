@@ -366,6 +366,9 @@
 
                 a {
                     all: unset;
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
 
                     p {
                         display: flex;
@@ -375,10 +378,10 @@
                         img {
                             width: 30px;
                             height: 30px;
-
                         }
 
                         span {
+
                             font-size: 23px;
                         }
                     }
@@ -937,4 +940,12 @@ footer {
 
         }
     }
+}
+
+.ggg {
+    width: 100%;
+    height: max-content;
+    // padding: 20px;
+    // z-index: 100;
+    background-color: rgb(255, 255, 255);
 }
