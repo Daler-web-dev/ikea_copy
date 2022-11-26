@@ -1,7 +1,5 @@
-
-export function hed() {
-    console.log('test');
-    let conteiner = document.createElement('div')
+let conteiner = document.querySelector('.conteiner')
+function hed(selector) {
     let menu_btn = document.createElement('div')
     let menu_img = document.createElement('img')
     let menu_p = document.createElement('p')
@@ -21,7 +19,7 @@ export function hed() {
     let a = document.createElement('a')
     let btn_two = document.createElement('button')
     let img_five = document.createElement('img')
-    let btn_three = document.createElement('button')
+    let btn_three = document.createElement('a')
     let img_six = document.createElement('img')
     let header_bottom = document.createElement('div')
     let header_bottom_left = document.createElement('div')
@@ -43,10 +41,6 @@ export function hed() {
     let img_eight = document.createElement('img')
     let sp_three = document.createElement('span')
 
-
-
-
-    conteiner.classList.add('conteiner')
     menu_btn.classList.add('menu_btn')
     menu_img.src = "../icons/menu.svg"
     menu_img.style.width = "28px"
@@ -67,17 +61,19 @@ export function hed() {
     log_in.classList.add('log_in')
     img_four.src = "../icons/1564534_customer_man_user_account_profile_icon (1).svg"
     sp.innerHTML = "Hej! Log in or sing up"
-    a.href = "./pages/like.html"
+    a.href = "../pages/like.html"
     btn_two.classList.add('like')
     btn_two.classList.add('btn')
     img_five.src = "../icons/8664909_heart_like_icon.svg"
     btn_three.classList.add('basket')
     btn_three.classList.add('btn')
+    btn_three.href = "/pages/basket.html"
+
     img_six.src = "../icons/3507743_basket_iconoteka_shop_shopping_store_icon.svg"
     header_bottom.classList.add('header_bottom')
     header_bottom_left.classList.add('header_bottom_left')
     header_bottom_right.classList.add('header_bottom_right')
-    a_two.href = "./pages/products.html"
+    a_two.href = "../pages/products.html"
     p.innerHTML = "Products"
     a_three.href = "#"
     p_two.innerHTML = "Rooms"
@@ -95,10 +91,6 @@ export function hed() {
     img_eight.src = "../icons/9042517_garage_icon.svg"
     img_eight.style.height = "30px"
     sp_three.innerHTML = "Hengelo"
-
-
-
-    document.body.prepend(conteiner);
 
     box.append(img_two, inp)
     form.append(box, img_three)
@@ -120,6 +112,7 @@ export function hed() {
     header_top.append(header_top_left, login)
     hdr.append(header_top, header_bottom)
     menu_btn.append(menu_img, menu_p)
-    conteiner.append(hdr, menu_btn)
+    conteiner.prepend(hdr)
 
 }
+hed('.conteiner')
