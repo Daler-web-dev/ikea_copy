@@ -37,11 +37,9 @@
                     <button class="like btn">
                         <img src="../icons/8664909_heart_like_icon.svg" alt="">
                     </button>
-                    <a href="./basket.html">
-                        <button class="basket btn">
-                            <img src="../icons/3507743_basket_iconoteka_shop_shopping_store_icon.svg" alt="">
-                        </button>
-                    </a>
+                    <button class="basket btn">
+                        <img src="../icons/3507743_basket_iconoteka_shop_shopping_store_icon.svg" alt="">
+                    </button>
                 </div>
 
 
@@ -77,17 +75,115 @@
 
         </header>
 
-        <h1 class="products_logo_h1">Smart air purifiers</h1>
-        <br>
-        <p class="products_logo_p">Take a deep breath and enjoy better air at home. An air purifier can improve the air
-            quality by reducing indoor air pollutants – something <br> that not many people know exist inside their
-            homes. They can be controlled manually or with the IKEA Home smart app if connected to <br> TRÅDFRI gateway.
-        </p>
 
-        <div class="products_create_cont">
+        <div class="basket_main">
+            <div class="basket_main_left">
+
+                <h1>
+                    <p>Shopping cart</p> <span><img src="../icons/menu_tochka.svg" width="18px" alt=""></span>
+                </h1>
+
+
+                <h3>How would you like to receive your order?</h3>
+                <div class="basket_delivery_main">
+                    <div class="basket_deliveryy">
+                        <img src="../icons/7019497_shipping_transportation_delivery_truck_online_icon.svg" width="40px"
+                            alt="">
+                        <p>Delivery</p>
+                    </div>
+                    <div class="basket_deliveryy">
+                        <img src="../icons/9042517_garage_icon.svg" width="40px" alt="">
+                        <p>Collect</p>
+                    </div>
+                </div>
+
+                <div class="basket_create">
+                    <div class="basket_create_box">
+                        <div class="box_left">
+                            <img class="prodo_img"
+                                src="https://www.ikea.com/us/en/images/products/malm-high-bed-frame-2-storage-boxes-white-luroey__1154393_pe886042_s5.jpg?f=s"
+                                alt="">
+                            <div class="box_info">
+                                <div>
+                                    <h1 class="box_name">STARKVIND</h1>
+                                    <p class="box_subtitle">Table With Air Purifier, stained oak veneer/dark brown smart
+                                    </p>
+                                </div>
+
+                                <div class="onpions">
+                                    <form name="howmany">
+                                        <select  class="howmash">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                        </select>
+                                    </form>
+                                    <p class="remove">Remove product</p>
+                                    <p class="shoping_list">Move to shopping list >></p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="prod_price">€ 163.99</p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="basket_main_right">
+                <h2>Order summary</h2>
+                <div class="basket_main_right_price">
+                    <div class="price_text">
+                        <p>Products price</p>
+                        <p class="total">€ 163.99</p>
+                    </div>
+                    <div class="price_text">
+                        <p>Delivery</p>
+                        <p>Will be visible in the next step</p>
+                    </div>
+                    <div class="price_text act">
+                        <span>Subtotal</span>
+                        <p class="total">€ 163.99</p>
+                    </div>
+                </div>
+
+                <div class="basket_sale_family">
+                    <div class="sale_left">
+                        <h2>Are you an IKEA Family member?</h2>
+                        <p><a href="#">Log in or sign up</a> to save for a €10,- IKEA Family discount</p>
+                    </div>
+                    <img src="../icons/1564534_customer_man_user_account_profile_icon (1).svg" alt="" width="24px">
+                </div>
+                <div class="basket_checkout">
+                    <div class="checkout_left">
+                        <p>Continue to checkout</p>
+                    </div>
+                    <span><img src="../icons/arrow-right.svg" width="24px" alt=""></span>
+                </div>
+
+                <button class="accordion">
+                    <p><img src="../icons/sale_code.svg" width="24px" alt=""> <a href="#">Have a discount code?</a></p>
+                    <img src="../icons/arrow.svg" width="24px" alt="">
+                </button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officiis atque impedit
+                        voluptatum, error temporibus earum doloribus similique minima nostrum excepturi, culpa neque
+                        esse reprehenderit quia facilis! Aut, ipsa ab.</p>
+                </div>
+
+                <div class="basket_a"><img src="../icons/8664909_heart_like_icon.svg" width="24px" alt=""> <a
+                        href="#">365 days to change your mind</a></div>
+                <div class="basket_a"><img src="../icons/3507743_basket_iconoteka_shop_shopping_store_icon.svg"
+                        width="24px" alt=""> <a href="#">Secure shopping with SSL data encryption</a></div>
+            </div>
         </div>
 
+
+
+
+
+
+
     </div>
+
 
     <footer>
         <div class="footer_cont">
@@ -308,8 +404,8 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="../pages js/products.js"></script>
-    <script src="../index.js"></script>
+
+    <script src="../modules/basket.js"></script>
 </body>
 
 </html>

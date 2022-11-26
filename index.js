@@ -105,7 +105,7 @@ open_menu.onclick = () => {
 
     setTimeout(() => {
         menu_main.style.left = '0'
-    }, 10)
+    }, 100)
 
 }
 
@@ -125,6 +125,22 @@ close_menu.onclick = () => {
     }, 100)
 
 }
+window_bg.onclick = () => {
+
+
+    menu_main.style.left = '-100%'
+    setTimeout(() => {
+        menu_main.style.display = 'none'
+        window_bg.style.display = 'none'
+        products.style.display = 'none'
+        rooms.style.display = 'none'
+        news.style.display = 'none'
+        offers.style.display = 'none'
+        main.style.display = 'flex'
+    }, 100)
+
+}
+
 
 
 

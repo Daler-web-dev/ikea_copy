@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,9 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <div class="conteiner">
         <div class="menu_btn">
             <img src="../icons/menu.svg" width="28px">
@@ -77,14 +79,16 @@
             <div class="productid_main_left">
                 <div class="productid_grid">
                 </div>
-                <p class="text_proid">Both a side table and an air purifier that improves the indoor air quality. STARKVIND can be <br> adjusted manually, set to auto mode or be connected to DIRIGERA hub for full control via IKEA <br> Home smart app.</p>
+                <p class="text_proid">Both a side table and an air purifier that improves the indoor air quality.
+                    STARKVIND can be <br> adjusted manually, set to auto mode or be connected to DIRIGERA hub for full
+                    control via IKEA <br> Home smart app.</p>
 
                 <div class="number_prod">
                     <span>Article Number</span>
                     <p class="aa">805.019.51</p>
                 </div>
 
-                <div class="productid_select" >
+                <div class="productid_select">
                     <p>Product details</p>
                     <img src="../icons/arrow-right.svg" width="32px" alt="">
                 </div>
@@ -101,7 +105,7 @@
             </div>
             <div class="productid_main_right">
                 <div class="productid_name_item">
-                    <h3>STARKVIND</h3>
+                    <h3 class="prod_name">STARKVIND</h3>
                     <p class="name_item_subtitle">Table with air purifier, stained oak veneer/dark brown smart</p>
                     <p class="productid_price">€149</p>
                     <div class="productid_rating">4.5</div>
@@ -120,8 +124,9 @@
                     <div class="productid_delivery">
                         <div class="delivery_top">
                             <div class="delivery_img">
-                                <img src="../icons/7019497_shipping_transportation_delivery_truck_online_icon.svg" width="24px" alt="">
-                            </div> 
+                                <img src="../icons/7019497_shipping_transportation_delivery_truck_online_icon.svg"
+                                    width="24px" alt="">
+                            </div>
                             <div class="delivery_info">
                                 <h3>Delivery</h3>
                                 <a href="#">
@@ -140,15 +145,15 @@
                                 </div>
                                 <div class="Hengelo_info_item"><span></span>
                                     <p><a href="#">Store</a> - In stock</p>
-                
+
                                 </div>
                                 <div class="Hengelo_info_item"><span class="opaci"></span>
                                     <p><a href="#">Locate product in store</a></p>
-                
+
                                 </div>
 
 
-                     
+
                             </div>
                         </div>
                     </div>
@@ -159,7 +164,7 @@
 
             </div>
             <div class="productid_window">
-                <img class="productid_close_menu"  src="../icons/close_menu.svg" width="24px" alt="">
+                <img class="productid_close_menu" src="../icons/close_menu.svg" width="24px" alt="">
             </div>
             <div class="productid_bg"></div>
         </div>
@@ -390,25 +395,34 @@
     <script>
         let path = window.location.search
         let productid_grid = document.querySelector('.productid_grid')
+        let prod_name = document.querySelector('.prod_name')
+        let name_item_subtitle = document.querySelector('.name_item_subtitle')
+        let productid_price = document.querySelector('.productid_price')
+        let productid_rating = document.querySelector('.productid_rating')
 
         axios.get('http://localhost:7777/array' + path)
             .then(res => {
                 let data = res.data[0]
                 let images = data.media
-
-                for(let img of images) {
+                console.log(data);
+                for (let img of images) {
                     let productid_item = document.createElement('div')
                     productid_item.classList.add('productid_item')
                     productid_item.style.backgroundImage = `url("${img}")`
                     productid_grid.append(productid_item)
+
                 }
+                    prod_name.innerHTML = data.name
+                    name_item_subtitle.innerHTML = data.subtitle + data.size
+                    productid_price.innerHTML = '€ ' + data.price 
+                    productid_rating.innerHTML = '★' + data.rating
 
 
-
-            })        
+            })
 
 
     </script>
 
 </body>
+
 </html>
