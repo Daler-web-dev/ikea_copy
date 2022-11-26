@@ -26,7 +26,6 @@ let totalPrice = []
 for (let like of liked) {
 	axios.get("http://localhost:7777/array/" + like)
 	.then((res) => {
-		console.log(res.data);
 		if(res.data) {
 			reloadBaskets(res.data, basket_create);
 		}
@@ -102,6 +101,18 @@ function reloadBaskets(item, place) {
 		finded.qt = howmash.value
 		calculateSum(totalPrice)
 	}
+
+	remove.onclick = () => {
+		liked = liked.filter(el => el !== item.id)
+		totalPrice = totalPrice.filter(el => el.id !== item.id)
+
+		localStorage.setItem('liked', JSON.stringify(liked))
+		basket_create_box.remove()
+
+
+		calculateSum(totalPrice)
+	}
+
 	item.qt = howmash.value
 
 	totalPrice.push(item)
